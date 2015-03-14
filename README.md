@@ -7,14 +7,14 @@ A simple web app to help people choose a name that everyone agrees on (primary u
 The web app is built using Node.js and the current user shortlist is stored using MongoDB, so you will need both of these installed on the machine being used to host the web app.
 
 ### Adding Users
-The list of users is defined in data/users.js - simply add or remove users to the JSON list as required
+The list of users is defined in data/users.js - simply add or remove users to the JSON list as required. (NOTE: names are case sensitive when signing in)
 
 ### Setting the available names
 The list of names is defined in data/names.js - The default list includes a list of the most popular girls names from the last US census, but could be changed to anything you want to source name candidates from.
 
 ## Usage
 
-To build the project run ```npm install``` followed by ```gulp build```
+To build the project run ```npm install``` followed by ```gulp build```.
 To start the web app server run ```node index.js```
 
 ## License
