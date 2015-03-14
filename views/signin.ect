@@ -1,0 +1,10 @@
+<% extend 'layout.ect' %>
+
+<div id='signin-component'></div>
+
+<% block 'scripts': %>
+<script type='text/javascript' src='/signin.jsx'></script>
+<script type='text/javascript'>
+    React.render(SigninFactory(),document.getElementById('signin-component'));
+</script>
+<% end %>

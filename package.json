@@ -1,0 +1,28 @@
+{
+  "name": "nameday",
+  "version": "1.0.0",
+  "description": "Create a shortlist of names that everyone can agree on",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Glenn Conner",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "bootstrap": "^3.3.2",
+    "client-sessions": "^0.7.0",
+    "compression": "^1.4.1",
+    "ect": "^0.5.9",
+    "express": "^4.12.2",
+    "mongodb": "^1.4.33",
+    "mongoskin": "^1.4.12",
+    "react": "^0.12.2",
+    "superagent": "^0.21.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-jsx": "^0.7.0"
+  }
+}

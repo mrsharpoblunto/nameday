@@ -1,0 +1,11 @@
+<% extend 'layout.ect' %>
+
+<div id="choose-component">
+</div>
+<h5 class="text-muted text-center">(View the combined shortlist <a href='/shortlist'>here</a>)</h5>
+<% block 'scripts': %>
+<script type='text/javascript' src='/choose.jsx'></script>
+<script type='text/javascript'>
+    React.render(ChooseFactory(),document.getElementById('choose-component'));
+</script>
+<% end %>
